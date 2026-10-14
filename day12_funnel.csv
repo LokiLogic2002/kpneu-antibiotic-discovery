@@ -1,0 +1,10 @@
+step,n_remaining,removed_at_step
+Start: valid unique molecules from file(s),39201,0
+Valid and canonical (RDKit re-parse),39201,0
+Deduplicated (canonical SMILES),39201,0
+Removed exact matches to known train actives,37398,1803
+Removed near-duplicates (max Tanimoto >= 0.8),33439,3959
+Property window: MW 150-700,31711,1728
+Property window: rotatable bonds <= 12,30055,1656
+Removed PAINS,28293,1762
+Removed Brenk,13203,15090

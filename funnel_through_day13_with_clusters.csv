@@ -1,0 +1,15 @@
+step,n_remaining,removed_at_step
+Start: valid unique molecules from file(s),39201,0.0
+Valid and canonical (RDKit re-parse),39201,0.0
+Deduplicated (canonical SMILES),39201,0.0
+Removed exact matches to known train actives,37398,1803.0
+Removed near-duplicates (max Tanimoto >= 0.8),33439,3959.0
+Property window: MW 150-700,31711,1728.0
+Property window: rotatable bonds <= 12,30055,1656.0
+Removed PAINS,28293,1762.0
+Removed Brenk,13203,15090.0
+Day 13: scored with QSAR (all Day 12 survivors),13203,0.0
+"Day 13: kept top 10,000 by QSAR probability",10000,3203.0
+"Day 13: Butina clusters at cutoff 0.5 (clusters, not removals)",3488,
+"Day 13: Butina clusters at cutoff 0.6 (clusters, not removals)",2087,
+"Day 13: Butina clusters at cutoff 0.7 (clusters, not removals)",979,

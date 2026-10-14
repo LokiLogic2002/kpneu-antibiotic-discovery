@@ -1,0 +1,4 @@
+cutoff,n_clusters,singletons,largest_cluster
+0.5,3488,2978,1067
+0.6,2087,1716,2883
+0.7,979,726,4691
